@@ -15,6 +15,7 @@
 		7D91950C20E0CDC30052D018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D91950A20E0CDC30052D018 /* LaunchScreen.storyboard */; };
 		7D91951720E0CDC30052D018 /* AR_PortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91951620E0CDC30052D018 /* AR_PortalTests.swift */; };
 		7D91952220E0CDC30052D018 /* AR_PortalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91952120E0CDC30052D018 /* AR_PortalUITests.swift */; };
+		7D91953220E0DB320052D018 /* Portal.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D91953120E0DB320052D018 /* Portal.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7D91951D20E0CDC30052D018 /* AR-PortalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-PortalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D91952120E0CDC30052D018 /* AR_PortalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_PortalUITests.swift; sourceTree = "<group>"; };
 		7D91952320E0CDC30052D018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D91953120E0DB320052D018 /* Portal.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Portal.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7D91950A20E0CDC30052D018 /* LaunchScreen.storyboard */,
 				7D91950D20E0CDC30052D018 /* Info.plist */,
 				7D91950520E0CDC10052D018 /* AR_Portal.xcdatamodeld */,
+				7D91953120E0DB320052D018 /* Portal.scnassets */,
 			);
 			path = "AR-Portal";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D91953220E0DB320052D018 /* Portal.scnassets in Resources */,
 				7D91950C20E0CDC30052D018 /* LaunchScreen.storyboard in Resources */,
 				7D91950920E0CDC30052D018 /* Assets.xcassets in Resources */,
 				7D91950420E0CDC10052D018 /* Main.storyboard in Resources */,
@@ -435,8 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 237J8UY6UT;
+				DEVELOPMENT_TEAM = 8XX4TJCXSB;
 				INFOPLIST_FILE = "AR-Portal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,8 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 237J8UY6UT;
+				DEVELOPMENT_TEAM = 8XX4TJCXSB;
 				INFOPLIST_FILE = "AR-Portal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
